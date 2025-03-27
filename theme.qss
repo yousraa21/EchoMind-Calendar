@@ -1,0 +1,65 @@
+QWidget {
+    background-color: #f9f9f9; /* Light pastel pink */
+    font-family: "Comic Sans MS";
+    font-size: 14px;
+    color: #6B5B95; /* Soft purple */
+}
+
+/* Calendar Styling */
+QCalendarWidget {
+    background-color: #f0e6f6; /* Soft pastel lavender */
+    color: #5d5d5d;
+    font-size: 14px;
+    border-radius: 10px;
+}
+
+/* Month & Year Navigation Styling */
+QCalendarWidget QToolButton {
+    background-color: #d8bfd8; /* Pastel purple */
+    color: #5d5d5d; /* Dark gray text */
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+QCalendarWidget QToolButton::hover {
+    background-color: #c9a8c9; /* Slightly darker pastel purple */
+}
+
+/* QPushButton Styling */
+QPushButton {
+    background-color: #d8bfd8; /* Soft pink */
+    border-radius: 8px;
+    padding: 10px;
+    color: #4A3B52; /* Darker text for better readability */
+    font-size: 15px;
+    font-family: "Comic Sans MS";
+    font-weight: bold;
+}
+
+QPushButton:hover {
+    background-color: #c9a8c9; /* Slightly darker pink */
+}
+
+/* QLineEdit (Input fields) */
+QLineEdit {
+    border: 2px solid #FFB6C1;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: white;
+}
+
+/* QTextEdit (Event Reminder Box) */
+QTextEdit {
+    background-color:rgb(247, 229, 255);  /* Soft pastel lavender */
+    color: #5d5d5d;
+    font-size: 14px;
+    border-radius: 10px;
+    padding: 10px;
+}
+QLabel {
+    qproperty-alignment: AlignCenter;
+    margin-bottom: 10px;
+}
+
